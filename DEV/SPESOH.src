@@ -1,0 +1,41 @@
+#<AdxTL>@(#)0.0.0.0 $Revision$
+#########
+$ACTION
+
+Case ACTION
+  When "OUVRE" : Gosub OUVRE
+  When "FERME" : Gosub FERME
+  When Default
+Endcase
+
+Return
+
+##########################
+$OUVRE
+
+Call ECR_TRACE ("J'ouvre",0) From GESECRAN
+
+Return
+
+##########################
+$FERME
+
+Call ECR_TRACE ("Je ferme",0) From GESECRAN
+
+Return
+
+##########################
+######################################################################################
+## Section automatically added (screen SOH0) 09/29/2022 08:53:57 (ADMIN)
+######################################################################################
+Subprog AM_CUSORDREF(VALEUR)
+Variable Char    VALEUR()
+
+If VALEUR ="ref"
+  Call ECR_TRACE ("Mettre une vraie valeur",0) From GESECRAN
+  mkstat=2
+Endif
+End
+
+
+######################################################################################

@@ -5,6 +5,7 @@ $ACTION
 Case ACTION
   When "OUVRE" : Gosub OUVRE
   When "FERME" : Gosub FERME
+  
   When Default
 Endcase
 

@@ -5,10 +5,20 @@ $ACTION
 Case ACTION
   When "OUVRE" : Gosub OUVRE
   When "FERME" : Gosub FERME
+  when "TEST"	: 	gosub TEST
   When Default
 Endcase
 
 Return
+
+##########################
+$TEST
+
+local integer i
+local integer j
+
+return
+
 
 ##########################
 $OUVRE

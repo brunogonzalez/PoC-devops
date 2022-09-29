@@ -13,7 +13,9 @@ Return
 ##########################
 $OUVRE
 
-Call ECR_TRACE ("J'ouvre",0) From GESECRAN
+#Issue 1 - On n'utilise plus ECR_TRACE, mais MESSAGE
+#Call ECR_TRACE ("J'ouvre",0) From GESECRAN
+Call MESSAGE ("J'ouvre") From GESECRAN
 
 Return
 

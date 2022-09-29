@@ -87,7 +87,7 @@
 4,"EXPLIEN",0,""
 4,"LIEN",0,""
 4,"LONG",0,4
-5,"NOABREG",0,"Number of purchase lines","ENG",7677,""
+5,"NOABREG",0,"Number of PUR lines","ENG",7677,""
 5,"NOABREG",0,"Nb l a","FRA",7677,""
 5,"NOABREG",0,"","***"
 5,"NOCOURT",0,"No. of lines to allocate","ENG",7676,""
